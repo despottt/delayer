@@ -1,0 +1,8 @@
+# before_install:
+# - sudo apt -qq update
+# - sudo apt install -y jq
+#
+env:
+- TYPE=cross_platform
+script:
+- exec bash < build_binaries
